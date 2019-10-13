@@ -42,4 +42,8 @@ async Task SendDataAsync(IEnumerable<CoffeeMachineData> coffeeMachineDatas)
 * How to keep message size limit... be careful when have batch for example. Need to ensure split batch to not exceed message size. There eventhub data batch class to help you stay in the limit. 
 * See _eventHubClient.CreateBatch() in CoffeeMachineDataSender.cs. 
 
+## Data Capture Considerations..
+
+* Yes you can use data capture even though says no here... ([Cant use gen 2 data lake yet](https://docs.microsoft.com/en-gb/azure/storage/blobs/data-lake-storage-upgrade?toc=%2fazure%2fstorage%2fblobs%2ftoc.json#azure-ecosystem))
+
 
