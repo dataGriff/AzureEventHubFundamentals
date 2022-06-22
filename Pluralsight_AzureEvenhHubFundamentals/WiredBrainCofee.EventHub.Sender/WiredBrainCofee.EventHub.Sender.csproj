@@ -6,7 +6,7 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.Azure.Eventhubs" Version="4.1.0" />
-    <PackageReference Include="Newtonsoft.JSON" Version="12.0.2" />
+    <PackageReference Include="Newtonsoft.JSON" Version="13.0.1" />
   </ItemGroup>
 
 </Project>
